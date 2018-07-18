@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'TH Sarabun New';
+    src: url('../font/THSarabunNew.eot');
+    src: url('../font/THSarabunNew.eot?#iefix') format('embedded-opentype'),
+    url('../font/THSarabunNew.woff') format('woff'),
+    url('../font/THSarabunNew.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'sun-exta';
+    src: url('../font/Sun-ExtA.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "sun-exta", monospace !important;
+    background-color: #2b2d33;
+    font-size: 12px;
+}
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+.font-heder2{
+    text-align: center; font-size: 19pt; margin-top: 5px;
+}
+.table-bordered th {
+    padding: 0px 5px 1px 5px;
+}
+.table-bordered td {
+    padding: 0px 3px 1px 3px;
+}
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #2b2d33 !important;
+}
+.foodterL{
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 0px 0px 0px 40px;
+}
+.foodterR{
+    font-size: 12px;
+    padding: 0px 30px 0px 39px;
+}
+.user-receive{
+    font-size: 20px;
+}
+.customer-add {
+    /*padding-left: 15px;*/
+}
+.col-md-offset-8 {
+    margin-left: 66.66666667%
+}
+.col-md-offset-10 {
+    margin-left: 83.33333333%;
+}
+.col-md-offset-9 {
+    margin-left: 75%;
+}
+.tableJP {
+    font-size: 12px
+}
+.tableJP2 {
+    font-size: 11px
+}
+body {
+    background: rgb(204, 204, 204);
+}
+
+.conten {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+page[size="A4"][layout="portrait"] {
+    width: 29.7cm;
+    height: 21cm;
+}
+
+page[size="A3"] {
+    width: 29.7cm;
+    height: 42cm;
+}
+
+page[size="A3"][layout="portrait"] {
+    width: 42cm;
+    height: 29.7cm;
+}
+
+page[size="A5"] {
+    width: 14.8cm;
+    height: 21cm;
+}
+
+page[size="A5"][layout="portrait"] {
+    width: 21cm;
+    height: 14.8cm;
+}
+
+.header1 {
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 50px;
+}
+.header2 {
+    right: 260px;
+    /*padding-left: 670px;*/
+    position: absolute;
+
+}
+
+.btn-back {
+    z-index: 100;
+    position: fixed;
+    left: 5px;
+    top: 10px;
+    font-size: 20px;
+
+}
+
+.btn-print {
+    z-index: 100;
+    top: 10px;
+    font-size: 20px;
+    right: 5px;
+    cursor: hand;
+    position: fixed;
+
+}
+
+
+
+.font-jp{
+    /*font-size: 13px;*/
+    font-weight: 800;
+}
+.font-num{
+    font-size: 18px;
+    font-weight: 800;
+}
+.logo_header1{
+    margin-top: 8px;
+    margin-left: 344px;
+    width: 70px;
+}
+.logo_header2{
+    width: 100px;
+    margin-left: 325px;
+    padding-bottom: 20px;
+}
+
+@media print {
+    @page {
+        margin: 0;
+    }
+    body, page {
+        margin: 0;
+        box-shadow: 0;
+    }
+    .table-sm th {
+        padding: 5px 7px 1px 6px;
+    }
+    .table-sm td {
+        padding: 0px 7px 1px 6px;
+    }
+    .header2 {
+        position: absolute;
+        right: 20px;
+        /*padding-left: 680px;!important;*/
+    }
+    .btn-print {
+        display: none;
+    }
+
+    .btn-back {
+        display: none;
+    }
+
+
+    .container {
+        width: 21cm;
+        height: 29.7cm;
+    }
+
+    .header-content1{
+    }
+    .header-content2{
+        position: absolute;
+        margin-bottom: 150px;
+    }
+    .header-content4{
+        position: absolute;
+    }
+
+
+}
